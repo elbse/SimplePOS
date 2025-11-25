@@ -8,11 +8,11 @@ namespace SimplePOS_GUI
     {
         Dictionary<string, double> products = new Dictionary<string, double>()
         {
-            {"Apple", 1.50},
-            {"Bread", 3.25},
-            {"Milk", 2.00},
-            {"Coffee", 5.75},
-            {"Chocolate", 4.10}
+            {"Burger", 50.00},
+            {"Fries", 30.00},
+            {"Spaghetti", 50.00},
+            {"Coffee", 20.00},
+            {"Chocolate", 20.00}
         };
 
         public Form1()
@@ -22,7 +22,7 @@ namespace SimplePOS_GUI
             // Fill dropdown with products
             foreach (var item in products)
             {
-                comboProducts.Items.Add($"{item.Key} - ${item.Value:F2}");
+                comboProducts.Items.Add($"{item.Key} - ₱{item.Value:F2}");
             }
         }
 
@@ -51,11 +51,11 @@ namespace SimplePOS_GUI
             txtReceipt.Text =
                 "===== RECEIPT =====\r\n" +
                 $"Product : {productName}\r\n" +
-                $"Price   : ${price:F2}\r\n" +
+                $"Price   : ₱{price:F2}\r\n" +
                 $"Quantity: {qty}\r\n" +
-                $"Subtotal: ${subtotal:F2}\r\n" +
-                $"Tax 12% : ${tax:F2}\r\n" +
-                $"TOTAL   : ${total:F2}\r\n" +
+                $"Subtotal: ₱{subtotal:F2}\r\n" +
+                $"Tax 12% : ₱{tax:F2}\r\n" +
+                $"TOTAL   : ₱{total:F2}\r\n" +
                 "===================";
         }
     }
