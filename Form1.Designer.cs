@@ -30,15 +30,15 @@
             this.comboProducts.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.comboProducts.Location = new System.Drawing.Point(30, 50);
             this.comboProducts.Name = "comboProducts";
-            this.comboProducts.Size = new System.Drawing.Size(220, 25);
+            this.comboProducts.Size = new System.Drawing.Size(180, 25);
 
             // label1
             this.label1.Text = "Select Product:";
-            this.label1.Location = new System.Drawing.Point(30, 25);
+            this.label1.Location = new System.Drawing.Point(50, 25);
 
             // label2
             this.label2.Text = "Quantity:";
-            this.label2.Location = new System.Drawing.Point(30, 90);
+            this.label2.Location = new System.Drawing.Point(50, 90);
 
             // txtQty
             this.txtQty.Location = new System.Drawing.Point(30, 110);
@@ -57,7 +57,7 @@
             this.txtReceipt.Size = new System.Drawing.Size(260, 200);
 
             // Form1
-            this.ClientSize = new System.Drawing.Size(330, 450);
+            this.ClientSize = new System.Drawing.Size(380, 450);
             this.Controls.Add(this.comboProducts);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);

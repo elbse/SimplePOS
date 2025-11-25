@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SimplePOS_GUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7cd6f8cfc9c00602035b1bffeea9a09a30420afa")]
 [assembly: System.Reflection.AssemblyProductAttribute("SimplePOS_GUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SimplePOS_GUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

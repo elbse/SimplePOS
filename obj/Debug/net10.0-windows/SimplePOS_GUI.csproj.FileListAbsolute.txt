@@ -12,3 +12,4 @@ C:\Users\Charisse\SimplePOS_GUI\obj\Debug\net10.0-windows\refint\SimplePOS_GUI.d
 C:\Users\Charisse\SimplePOS_GUI\obj\Debug\net10.0-windows\SimplePOS_GUI.pdb
 C:\Users\Charisse\SimplePOS_GUI\obj\Debug\net10.0-windows\SimplePOS_GUI.genruntimeconfig.cache
 C:\Users\Charisse\SimplePOS_GUI\obj\Debug\net10.0-windows\ref\SimplePOS_GUI.dll
+C:\Users\Charisse\SimplePOS_GUI\obj\Debug\net10.0-windows\SimplePOS_GUI.sourcelink.json
